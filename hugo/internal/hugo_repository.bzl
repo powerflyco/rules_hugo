@@ -36,7 +36,7 @@ hugo_repository = repository_rule(
             doc = "The sha256 value for the binary",
         ),
         "os_arch": attr.string(
-            os_arch = "Linux-64bit",
+            default = "Linux-64bit",
             doc = "The os arch value",
         ),
         "extended": attr.bool(
